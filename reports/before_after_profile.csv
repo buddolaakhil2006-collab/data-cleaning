@@ -1,0 +1,3 @@
+stage,rows,columns,missing_cells,duplicate_rows,numeric_columns_with_nulls,dtypes,mean_sales,median_sales
+before,1827,12,115,24,2,order_id=str; order_date=str; region=str; state=str; customer_segment=str; category=str; subcategory=str; product_id=str; units=str; sales=float64; discount=float64; profit=float64,197.16187222222223,107.555
+after,1773,12,0,0,0,order_id=str; order_date=datetime64[us]; region=string; state=string; customer_segment=string; category=string; subcategory=string; product_id=string; units=int64; sales=float64; discount=float64; profit=float64,198.195820642978,108.16
